@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+
+# Database
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing & Coverage
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Project Specific
+uploads/resumes/*
+!uploads/resumes/.gitkeep
